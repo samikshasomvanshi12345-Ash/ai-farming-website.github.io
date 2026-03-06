@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Smart Farming</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>AI Smart Farming Advisor</h1>
+<p>Artificial Intelligence Helping Agriculture</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="images/farm.jpg" alt="Farm Image">
+<h2>Smart Farming</h2>
+<p>AI helps farmers monitor crops using sensors and drones.</p>
+</div>
+
+<div class="card">
+<img src="images/plant.jpg" alt="Plant Image">
+<h2>Plant Monitoring</h2>
+<p>AI systems track plant health and growth stages.</p>
+</div>
+
+<div class="card">
+<img src="images/crop.jpg" alt="Crop Image">
+<h2>Crop Analysis</h2>
+<p>AI analyzes soil and climate to suggest better crops.</p>
+</div>
+
+</div>
+
+<footer>
+<p>AI Diploma Project | Smart Agriculture</p>
+</footer>
+<h2>Crop Suggestion Demo</h2>
+
+<label>Select Soil Type:</label>
+
+<select id="soil">
+<option value="Black">Black Soil</option>
+<option value="Red">Red Soil</option>
+<option value="Sandy">Sandy Soil</option>
+</select>
+
+<br><br>
+
+<button onclick="suggestCrop()">Suggest Crop</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
